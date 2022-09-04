@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    min-height:  100vh;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align:center;
+}
+header h1{
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+header p a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    
+}
+
+.normal{
+    background-color: rgb(90, 90, 90);
+    color: white;
+    padding-left: 20px;
+}
+.normal P{
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 300px;
+}
+.imagem{
+    background-color:white;
+    color: black;
+    padding-left: 20px;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
