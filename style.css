@@ -1,20 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:ital@1&display=swap');
+:root{
+    --fontone:'Poppins', sans-serif;
+    --font2:'Roboto Condensed', sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
 }
 html body{
+    font-family:var(--fontone);
     min-height:  100vh;
     background-color: darkgrey;
 }
 
 header{
+    
     background-color: black;
     color: white;
     text-align:center;
 }
 header h1{
+    font-family: var(--font2);
     font-variant: small-caps;
     padding-top: 50px;
+    font-size: 10vw;
 }
 
 header p{
@@ -30,6 +39,7 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+    font-size: 3.5vw;
     
 }
 
@@ -40,7 +50,8 @@ section{
 }
 .normal P{
     background-color: rgba(0, 0, 0, 0.527);
-    width: 300px;
+    display: inline-block;
+    padding: 5px;
 }
 .imagem{
     background-color:white;
