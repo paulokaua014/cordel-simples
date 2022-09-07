@@ -38,25 +38,42 @@ header p a{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding: 30px;
     line-height: 2em;
     font-size: 2.5vw;
     
 }
 
+section p{
+    padding-bottom: 2em;
+}
+
 .normal{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding-left: 10px;
+  
 }
 .imagem{
     background-color: rgba(128, 126, 126, 0.205);
     color: white;
-    padding-left: 10px;
+    box-shadow:  inset 6px 6px 12px 0px rgba(0, 0, 0, 0.623);
+    background-attachment: fixed;
 }
 .imagem p{
     display: inline-block;
     padding: 5px;
-    background-color:rgba(0, 0, 0, 0.527); ;
+    background-color:rgba(0, 0, 0, 0.705);
+    text-shadow: 1px 1px 0px black;
+}
+
+#img01{
+background-image: url(imagens/background001.jpg);
+background-position: right center;
+background-size: cover;
+}
+#img02{
+background-image: url(imagens/background002.jpg);
+background-size: cover;
 }
 footer{
     background-color: black;
